@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/carrossel2.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montez&family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: #254a64;
+    --azul: #002F52;
+    --preto: #000000;
+    --font-primaria: "Poppins";
+    --font--secundaria: "Josefin Sans";
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    font-weight: 400;
+}
